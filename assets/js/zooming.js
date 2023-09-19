@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         transitionDuration: 0.2,
         bgColor: bgColor,
     });
-    zooming.listen('#content img');
+    zooming.listen('#content img:not(.do-not-zoom)');
 
     const dark_mode_btn = document.getElementById("dark_mode_btn");
     const light_mode_btn = document.getElementById("light_mode_btn");
