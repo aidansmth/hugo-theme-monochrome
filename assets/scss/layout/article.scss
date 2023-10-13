@@ -182,6 +182,7 @@ article {
   img {
     @include mx-auto;
     display: block;
+    border-radius: 1%;
   }
 }
 
