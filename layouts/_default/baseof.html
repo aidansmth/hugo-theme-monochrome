@@ -40,7 +40,19 @@
                     {{ end }}
                 {{ end }}
             </div>
-            {{- partial "footer.html" . -}}
+            <footer>
+                <article style="margin-top: 3rem">
+                    <p style="text-align: right;">Special thanks to <a id="christine-link" href="https://www.christineinnes.com/">Christine Innes</a> for her artwork.</p>
+                    <style>
+                        /* Style for the hyperlink */
+                        #christine-link {
+                            text-decoration: none; /* Remove default underline */
+                            font-weight: bold; /* Make the text bold */
+                            color: inherit; /* Change the text color to your preference */
+                        }
+                    </style>
+                </article>
+            </footer>
         </main>
     </body>
 </html>
